@@ -44,12 +44,6 @@ CelNumVar::CelNumVar() : CelVariable("", -COIN_DBL_MAX, COIN_DBL_MAX) {
     initMe();
 }
 
-CelNumVar& CelNumVar::operator= (const CelNumVar other){
-    *this = other;
-    return *this;
-}
-
-
 CelNumVar::~CelNumVar(){
 }
 

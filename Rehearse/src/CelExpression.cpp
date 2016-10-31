@@ -652,9 +652,9 @@ CelExpression & CelExpression::operator += (CelExpression &expression){
     return *this;
 }
 
-CelExpression & CelExpression::operator = (CelExpression &expression){
+CelExpression & CelExpression::operator = (const CelExpression &expression){
     this->node_type = CelExpression::NODE_PROXY;
-    this->left = &expression;
+    this->left = const_cast<CelExpression*>(&expression);
     this->right = NULL;
 
     return *this;
