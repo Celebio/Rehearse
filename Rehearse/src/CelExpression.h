@@ -82,7 +82,7 @@ public:
     friend CelExpression & operator - (CelExpression &expression);
 
     CelExpression & operator += (CelExpression &expression);
-    CelExpression & operator = (CelExpression &expression);
+    CelExpression & operator = (const CelExpression &expression);
 
     void display() const;
     void display(int indent) const;

@@ -11,7 +11,6 @@ public:
     CelBoolVar();
     CelBoolVar(std::string &name);
     CelBoolVar(const char *namestr);
-    CelBoolVar& operator= (const CelBoolVar other);
 
     ~CelBoolVar();
 
