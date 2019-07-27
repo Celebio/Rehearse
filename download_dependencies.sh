@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 svn co https://projects.coin-or.org/svn/BuildTools/stable/0.8/ BuildTools
 svn co https://projects.coin-or.org/svn/Cbc/stable/2.9/Cbc Cbc
